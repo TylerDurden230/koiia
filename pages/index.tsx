@@ -21,7 +21,7 @@ export default function Home() {
             ducimus!
           </p>
         </Cover>
-        <Section title={"Chi Siamo"} image={""}>
+        <Section title={"Chi Siamo"} image={"/koiia-home-img.png"} rightImg={true}>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
             Voluptatibus repellendus tenetur nemo nihil harum! Saepe cupiditate
@@ -29,7 +29,7 @@ export default function Home() {
             reprehenderit quos quibusdam fuga!
           </p>
         </Section>
-        <Section title={"Formazione"} image={""}>
+        <Section title={"Formazione"} image={"/koiia-home-img.png"}>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
             Voluptatibus repellendus tenetur nemo nihil harum! Saepe cupiditate
@@ -37,7 +37,7 @@ export default function Home() {
             reprehenderit quos quibusdam fuga!
           </p>
         </Section>
-        <Section title={"Contatti"} image={""} backgroundColor="darkgrey" >
+        <Section title={"Contatti"} image={"/koiia-home-img.png"} backgroundColor="darkgrey" rightImg={true}>
           <div>
 
           </div>

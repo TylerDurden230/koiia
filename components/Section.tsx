@@ -1,24 +1,32 @@
-import React from 'react'
+import React from "react";
 
 type Props = {
-    title?: string,
-    children?: React.ReactNode,
-    image?: string,
-    backgroundColor?: string,
-}
+  title?: string;
+  children?: React.ReactNode;
+  image?: string;
+  rightImg?: boolean;
+  backgroundColor?: string;
+};
 
-const Section = ({title, image, children, backgroundColor} : Props) => {
+const Section = ({ title, image, children, backgroundColor, rightImg }: Props) => {
   return (
-    <section id={title} style={{backgroundColor: `${backgroundColor}`}}>
-        {image && <div>
-            <img src={image} alt="" />
-        </div>}
+    <section id={title} style={{ backgroundColor: `${backgroundColor}` }}>
+      {image && !rightImg  && (
         <div>
-            <h2>{title}</h2>
-            {children}
+          <img src={image} alt=""/>
         </div>
+      )}
+      <div>
+        <h2>{title}</h2>
+        {children}
+      </div>
+      {image && rightImg && (
+        <div>
+          <img src={image} alt=""/>
+        </div>
+      )}
     </section>
-  )
-}
+  );
+};
 
-export default Section
+export default Section;
