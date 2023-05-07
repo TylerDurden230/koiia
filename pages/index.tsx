@@ -37,13 +37,19 @@ export default function Home() {
             reprehenderit quos quibusdam fuga!
           </p>
         </Section>
-        <Section title={"Contatti"} image={""}>
+        <Section title={"Contatti"} image={""} backgroundColor="darkgrey" >
+          <div>
+
+          </div>
+          <div>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
             Voluptatibus repellendus tenetur nemo nihil harum! Saepe cupiditate
             dicta omnis eos quae dolores architecto est illum? Corrupti nihil
             reprehenderit quos quibusdam fuga!
           </p>
+          </div>
+
         </Section>
       </main>
       <Footer />

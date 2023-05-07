@@ -6,8 +6,8 @@ import { GrClose } from "react-icons/gr";
 
 
 const navigation = [
-  { name: 'Formazione', href: '#Formazione', current: false },
   { name: 'Chi Siamo', href: '#Chi Siamo', current: false },
+  { name: 'Formazione', href: '#Formazione', current: false },
   { name: 'Contatti', href: '#Contatti', current: false },
 ]
 
