@@ -21,7 +21,7 @@ export default function Home() {
             ducimus!
           </p>
         </Cover>
-        <Section title={"Title1"} image={""}>
+        <Section title={"Chi Siamo"} image={""}>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
             Voluptatibus repellendus tenetur nemo nihil harum! Saepe cupiditate
@@ -29,7 +29,7 @@ export default function Home() {
             reprehenderit quos quibusdam fuga!
           </p>
         </Section>
-        <Section title={"Title2"} image={""}>
+        <Section title={"Formazione"} image={""}>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
             Voluptatibus repellendus tenetur nemo nihil harum! Saepe cupiditate
@@ -37,7 +37,7 @@ export default function Home() {
             reprehenderit quos quibusdam fuga!
           </p>
         </Section>
-        <Section title={"Title3"} image={""}>
+        <Section title={"Contatti"} image={""}>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
             Voluptatibus repellendus tenetur nemo nihil harum! Saepe cupiditate

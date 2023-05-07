@@ -8,7 +8,7 @@ type Props = {
 
 const Section = ({title, image, children} : Props) => {
   return (
-    <section>
+    <section id={title}>
         <div>
             <img src={image} alt="" />
         </div>

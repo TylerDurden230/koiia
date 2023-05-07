@@ -6,9 +6,9 @@ import { GrClose } from "react-icons/gr";
 
 
 const navigation = [
-  { name: 'Chi Siamo', href: '#', current: true },
-  { name: 'Formazione', href: '#', current: false },
-  { name: 'Contatti', href: '#', current: false },
+  { name: 'Formazione', href: '#Formazione', current: false },
+  { name: 'Chi Siamo', href: '#Chi Siamo', current: false },
+  { name: 'Contatti', href: '#Contatti', current: false },
 ]
 
 function classNames(...classes : any[]) {
