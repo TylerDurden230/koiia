@@ -78,7 +78,7 @@ export default function Home() {
       </main>
       <Footer colums={4}>
         <div className="m-1">
-          <h3>CULO</h3>
+          <h3>KOIIA</h3>
           <div>
             <p>
               {" "}
@@ -103,14 +103,14 @@ export default function Home() {
           <div>
             <h3>LINKS</h3>
             <ul>
-              <li>link 1</li>
-              <li>link 2</li>
-              <li>link 3</li>
+              <li><a href="#" target="_blank">link 1</a></li>
+              <li><a href="#" target="_blank">link 2</a></li>
+              <li><a href="#" target="_blank">link 3</a></li>
             </ul>
           </div>
         </div>
         <div className="m-1">
-          <h3>CULO</h3>
+          <h3>CONTATTI</h3>
           <div>
             <p>
               {" "}
