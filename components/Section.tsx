@@ -16,8 +16,8 @@ const Section = ({
   rightImg,
 }: Props) => {
   return (
-    <section id={title} style={{ backgroundColor: `${backgroundColor}` }}>
-      {image && !rightImg && (
+    <section id={title} style={{ background: `${backgroundColor}` }}>
+      {image && !rightImg  && (
         <div>
           <img src={image} alt="" />
         </div>

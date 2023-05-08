@@ -35,7 +35,7 @@ export default function Home() {
             culpa qui officia deserunt mollit anim id est laborum.
           </p>
         </Section>
-        <Section title={"Formazione"} image={"/koiia-home-img.png"}>
+        <Section title={"Formazione"} image={"/koiia-home-img.png"} backgroundColor="var(--gradient-purple)">
           <p>
             Sia che siate principianti o esperti, il nostro programma di
             formazione su misura vi aiuterà a raggiungere i vostri obiettivi. I
@@ -71,8 +71,45 @@ export default function Home() {
           </div>
         </Section>
       </main>
-      <Footer>
-        
+      <Footer colums={4}>
+        <div className="m-1">
+          <h3>CULO</h3>
+          <div >
+            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Voluptatibus repellendus tenetur nemo nihil harum! Saepe cupiditate
+            dicta omnis eos quae dolores architecto est illum? Corrupti nihil
+            reprehenderit quos quibusdam fuga!</p>        
+          </div>
+        </div>  
+        <div className="m-1">
+          <div>
+            <h3>OFFICE</h3>
+            <ul>
+              <li>indirizzo</li>
+              <li>email</li>
+              <li>numero ufficio</li>
+            </ul>
+        </div>
+        </div>
+        <div className="m-1">
+          <div>
+            <h3>LINKS</h3>
+            <ul>
+              <li>link 1</li>
+              <li>link 2</li>
+              <li>link 3</li>
+            </ul>
+          </div>
+        </div>
+        <div className="m-1">
+          <h3>CULO</h3>
+          <div >
+            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Voluptatibus repellendus tenetur nemo nihil harum! Saepe cupiditate
+            dicta omnis eos quae dolores architecto est illum? Corrupti nihil
+            reprehenderit quos quibusdam fuga!</p>        
+          </div>
+        </div>  
       </Footer>
     </>
   );
