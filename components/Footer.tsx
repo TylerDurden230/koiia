@@ -1,18 +1,12 @@
-import React from 'react'
+import React from "react";
 
-const Footer = () => {
+type Props = {
+  colums?: number;
+  children: React.ReactNode;
+};
+const Footer = ({ colums, children }: Props) => {
   return (
-    <footer className='bg-gray-800 w-full'>
-        <div>
-
-        </div>
-        <div>
-            <h4>Contatti</h4>
-            <li></li>
-        </div>
-
-    </footer>
-  )
-}
-
-export default Footer
+    <footer className={`bg-gray-800 w-full grid-${colums}`}>{children}</footer>
+  );
+};
+export default Footer;

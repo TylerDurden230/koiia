@@ -34,6 +34,8 @@ body {
 
 section {
   display: grid;
+  justify-content: center;
+  align-items: center;
   padding: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
@@ -51,6 +53,8 @@ section img {
 }
 
 footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   color: #fff;
   position: relative;
   bottom: 0;
@@ -69,6 +73,9 @@ h2 {
   margin-bottom: 1rem;
 }
 
+/* Generic Styles */
+
+
 .cover {
   display: flex;
   justify-content: flex-start;
@@ -81,6 +88,12 @@ h2 {
     grey,
     rgba(var(--background-start-rgb), 0.8),
   );
+}
+
+.grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
 }
 
 .cover p {
