@@ -12,12 +12,12 @@ export default function Home() {
     <>
       <Navbar />
       <main className={`flex flex-col items-center${inter.className}`}>
-        <Cover image={"/koiia-home-img.png"} title={"KOIIA"}>
+        <Cover image={"/koiia-home-img.png"} title={"KOIIA"} backgroundColor="var(--gradient-purple)" color="white">
           <p>
             Azienda leader nella formazione informatica sul cloud. Siamo qui per
-            aiutarvi a sviluppare le vostre competenze, offrendovi corsi di alta qualità sui principali
-            strumenti e tecnologie del settore, come Kubernetes, Docker,
-            Terraform e molto altro ancora.
+            aiutarvi a sviluppare le vostre competenze, offrendovi corsi di alta
+            qualità sui principali strumenti e tecnologie del settore, come
+            Kubernetes, Docker, Terraform e molto altro ancora.
           </p>
         </Cover>
         <Section
@@ -35,7 +35,12 @@ export default function Home() {
             culpa qui officia deserunt mollit anim id est laborum.
           </p>
         </Section>
-        <Section title={"Formazione"} image={"/koiia-home-img.png"} backgroundColor="var(--gradient-purple)">
+        <Section
+          title={"Formazione"}
+          image={"/koiia-home-img.png"}
+          backgroundColor="var(--gradient-purple)"
+          color="white"
+        >
           <p>
             Sia che siate principianti o esperti, il nostro programma di
             formazione su misura vi aiuterà a raggiungere i vostri obiettivi. I
@@ -74,13 +79,16 @@ export default function Home() {
       <Footer colums={4}>
         <div className="m-1">
           <h3>CULO</h3>
-          <div >
-            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Voluptatibus repellendus tenetur nemo nihil harum! Saepe cupiditate
-            dicta omnis eos quae dolores architecto est illum? Corrupti nihil
-            reprehenderit quos quibusdam fuga!</p>        
+          <div>
+            <p>
+              {" "}
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Voluptatibus repellendus tenetur nemo nihil harum! Saepe
+              cupiditate dicta omnis eos quae dolores architecto est illum?
+              Corrupti nihil reprehenderit quos quibusdam fuga!
+            </p>
           </div>
-        </div>  
+        </div>
         <div className="m-1">
           <div>
             <h3>OFFICE</h3>
@@ -89,7 +97,7 @@ export default function Home() {
               <li>email</li>
               <li>numero ufficio</li>
             </ul>
-        </div>
+          </div>
         </div>
         <div className="m-1">
           <div>
@@ -103,13 +111,16 @@ export default function Home() {
         </div>
         <div className="m-1">
           <h3>CULO</h3>
-          <div >
-            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Voluptatibus repellendus tenetur nemo nihil harum! Saepe cupiditate
-            dicta omnis eos quae dolores architecto est illum? Corrupti nihil
-            reprehenderit quos quibusdam fuga!</p>        
+          <div>
+            <p>
+              {" "}
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Voluptatibus repellendus tenetur nemo nihil harum! Saepe
+              cupiditate dicta omnis eos quae dolores architecto est illum?
+              Corrupti nihil reprehenderit quos quibusdam fuga!
+            </p>
           </div>
-        </div>  
+        </div>
       </Footer>
     </>
   );

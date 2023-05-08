@@ -6,6 +6,7 @@ type Props = {
   image?: string;
   rightImg?: boolean;
   backgroundColor?: string;
+  color?: string;
 };
 
 const Section = ({
@@ -13,10 +14,11 @@ const Section = ({
   image,
   children,
   backgroundColor,
+  color,
   rightImg,
 }: Props) => {
   return (
-    <section id={title} style={{ background: `${backgroundColor}` }}>
+    <section id={title} style={{ background: `${backgroundColor}`, color: `${color}` }}>
       {image && !rightImg  && (
         <div>
           <img src={image} alt="" />
